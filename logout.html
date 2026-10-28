@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saindo - FIEL</title>
+</head>
+<body>
+  <script>
+    localStorage.removeItem('fiel_token');
+    window.location.replace('login.html?status=desconectado');
+  </script>
+</body>
+</html>
